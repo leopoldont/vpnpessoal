@@ -1,0 +1,27 @@
+============================================================
+           ⚡ VPN SWITCH - GUIA RAPIDO (WINDOWS 11)
+============================================================
+
+Ola! Este e o aplicativo VPN Switch pronto para o Windows 11.
+
+COMO USAR:
+
+1. INSTALAR O OPENVPN (obrigatorio para os drivers de rede do Windows):
+   - Abra o PowerShell ou Prompt de Comando e digite:
+     winget install OpenVPNTechnologies.OpenVPN
+   - Ou baixe o instalador oficial em: https://openvpn.net/community-downloads/
+
+2. COMO ABRIR O PROGRAMA:
+   - Basta dar 2 cliques no arquivo "iniciar.bat".
+   - Quando o Windows perguntar se deseja permitir alteracoes (Administrador), clique em "Sim".
+
+3. GERAR UM ARQUIVO .EXE PORTATIL:
+   - Se quiser enviar apenas um arquivo .exe para usar em qualquer PC:
+   - De 2 cliques em "compilar_exe.bat".
+   - O arquivo executavel ficara salvo dentro da pasta "dist/VPN-Switch-Portable.exe".
+
+RECURSOS:
+- Aba "Painel Rapido": Ligue e desligue a VPN com 1 clique.
+- Aba "Lista de Servidores": Escolha servidores gratuitos do Peru, America Latina, EUA, Europa ou Asia com medicao de Ping ao vivo.
+- Importar .ovpn: Use tambem perfis do ProtonVPN ou de servidores proprios!
+============================================================
